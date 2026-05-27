@@ -64,7 +64,7 @@ static: certificate has an existing certificate-key pair that was previously imp
 |----------|--------------|
 | al2 | x64 |
 | al2012 | x64 |
-| alphine-3.16 | x64,aarch64 |
+| alpine-3.16 | x64,aarch64 |
 | fedora-34 | x64 |
 | macOS-14 | arm64 |
 | macOS-14-large | x64 |
@@ -92,7 +92,7 @@ static: certificate has an existing certificate-key pair that was previously imp
 | Name | Version | Platforms |
 |------|---------|-----------|
 | CMake | 3.9+ | All supported platforms |
-| Clang | 6,8,9,10,11,15 | All platforms |
+| Clang | 6,8,9,10,11,15, latest | All platforms |
 | gcc | 4.8,5,6,7,8,11 | Linux |
 
 ## Supported Frameworks
