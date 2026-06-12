@@ -86,7 +86,6 @@ static: certificate has an existing certificate-key pair that was previously imp
 
 | Name | Version | Platforms |
 |------|---------|-----------|
-| CMake | 3.1+ | All supported platforms |
 | Clang | 3.6+ | All platforms |
 | XCode |  |  |
 | cmake-js | 7.3.0 | All supported platforms |
