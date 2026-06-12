@@ -69,11 +69,12 @@ static: certificate has an existing certificate-key pair that was previously imp
 | macOS-14 | arm64 |
 | macOS-14-large | x64 |
 | manylinux2014 | x64,aarch64 |
+| musl-linux | armv8 |
 | opensuse-leap | x64 |
 | raspbian | arm |
 | rhel8 | x64 |
 | ubuntu-24.04 | x64 |
-| windows-2025 | x64,x86 |
+| windows-11 | x64,x86 |
 
 ## Tier 2 — Supported (Not Tested in CI)
 
@@ -85,15 +86,13 @@ static: certificate has an existing certificate-key pair that was previously imp
 
 | Name | Version | Platforms |
 |------|---------|-----------|
+| CMake | 3.1+ | All supported platforms |
+| Clang | 3.6+ | All platforms |
+| XCode |  |  |
 | cmake-js | 7.3.0 | All supported platforms |
-
-## Supported Libraries
-
-| Name | Version | Platforms |
-|------|---------|-----------|
-| CMake | 3.9+ | All supported platforms |
-| Clang | 6,8,9,10,11,15, latest | All platforms |
-| gcc | 4.8,5,6,7,8,11 | Linux |
+| gcc | 5+ | Linux |
+| msvc |  | windows |
+| windows | 10+ |  |
 
 ## Supported Frameworks
 
