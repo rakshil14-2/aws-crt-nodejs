@@ -65,6 +65,7 @@ static: certificate has an existing certificate-key pair that was previously imp
 | Linux |  |
 | macOS-14 | arm64 |
 | macOS-14-large | x64 |
+| opensuse-leap | x64 |
 | windows-11 | x64,x86 |
 
 ## Tier 2 — Supported (Not Tested in CI)
