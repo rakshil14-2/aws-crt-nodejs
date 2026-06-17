@@ -62,18 +62,9 @@ static: certificate has an existing certificate-key pair that was previously imp
 
 | Platform | Architecture |
 |----------|--------------|
-| al2 | x64 |
-| al2012 | x64 |
-| alpine-3.16 | x64,aarch64 |
-| fedora-34 | x64 |
+| Linux |  |
 | macOS-14 | arm64 |
 | macOS-14-large | x64 |
-| manylinux2014 | x64,aarch64 |
-| musl-linux | armv8 |
-| opensuse-leap | x64 |
-| raspbian | arm |
-| rhel8 | x64 |
-| ubuntu-24.04 | x64 |
 | windows-11 | x64,x86 |
 
 ## Tier 2 — Supported (Not Tested in CI)
@@ -86,12 +77,8 @@ static: certificate has an existing certificate-key pair that was previously imp
 
 | Name | Version | Platforms |
 |------|---------|-----------|
-| Clang | 3.6+ | All platforms |
 | XCode |  |  |
 | cmake-js | 7.3.0 | All supported platforms |
-| gcc | 5+ | Linux |
-| msvc |  | windows |
-| windows | 10+ |  |
 
 ## Supported Frameworks
 
